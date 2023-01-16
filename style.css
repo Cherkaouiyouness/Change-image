@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+article{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 400px;
+    height: auto;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 25%;
+
+}
+.box img{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+} 
+

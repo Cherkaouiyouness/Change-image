@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body id="bd">
+    <header>
+      <div class="container">
+        <img class="img" src="fishing.jpg" />
+      </div>
+      <div class="box">
+        <img onclick="change(this.src)" src="fishing.jpg" />
+        <img onclick="change(this.src)" src="archery.jpg" />
+        <img onclick="change(this.src)" src="cabin.jpg" />
+        <img onclick="change(this.src)" src="canoeing.jpg" />
+      </div>
+ 
+    </header> 
+
+    <script>
+        let main = document.getElementsByClassName('img')[0]
+        function change(good){
+        main.src=good
+      }
+    </script>
+  </body>
+</html>
